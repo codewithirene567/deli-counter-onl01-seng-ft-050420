@@ -24,12 +24,9 @@ def now_serving(name)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
 else
-  index = 0
-  new_served = []
   katz_deli.unshift(name)
   new_served << "Serving #{name}"
- index -= 1
-   line.shift(line[0])
+
 end
 puts "Currently serving #{name}."
 katz_deli.unshift(name)
